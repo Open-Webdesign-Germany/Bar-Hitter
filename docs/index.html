@@ -104,7 +104,6 @@ margin: 0px;
     function startGame() {
         myGamePiece = new component(30, 30, "cyan", 10, 120);
         myGamePiece.gravity = 0.05;
-        myScore = new component("30px", "Consolas", "white", 280, 40, "text");
         myGameArea.start();
     }
     
@@ -204,8 +203,8 @@ margin: 0px;
             myObstacles[i].x += -1;
             myObstacles[i].update();
         }
-        myScore.text="SCORE: " + myGameArea.frameNo;
-        myScore.update();
+        
+       
         myGamePiece.newPos();
         myGamePiece.update();
     }

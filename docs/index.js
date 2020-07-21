@@ -3,7 +3,7 @@
 
 if('serviceWorker' in navigator) {
   navigator.serviceWorker
-           .register('/sw.js')
+           .register('https://open-webdesign-germany.github.io/pwa-examples/sw.js')
            .then(function() { console.log('Service Worker Registered');console.log('Do you want to install the PWA?') });
 }
 
