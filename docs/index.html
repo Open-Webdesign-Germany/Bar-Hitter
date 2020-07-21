@@ -2,13 +2,42 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Install now our Web App!</title>
-    <link href="style.css" rel="stylesheet">
+    <title>Progressive Web App Sample!</title>
+    <style>
+      html {
+  height: 100%;
+  
+}
+
+body {
+  height: inherit;
+  margin: 0;
+  background: url("https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.add-button {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: x-large;
+  mix-blend-mode: screen; /* This makes the cutout text possible */
+}
+
+
+    </style>
     <script src="index.js" defer></script>
     <link rel="manifest" href="manifest.webmanifest">
   </head>
   <body>
     
-    <button class="add-button">Add to home screen</button>
+    <button class="add-button">+</button>
   </body>
 </html>
