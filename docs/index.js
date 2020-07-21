@@ -3,7 +3,7 @@
 
 if('serviceWorker' in navigator) {
   navigator.serviceWorker
-           .register('https://barhitter.openwebdesignde.repl.co/sw.js')
+           .register('https://barhitter.openwebdesignde.repl.col/sw.js')
            .then(function() { console.log('Service Worker Registered');console.log('Do you want to install the PWA?') });
 }
 
