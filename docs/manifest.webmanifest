@@ -1,15 +1,15 @@
 {
-  "background_color": "#194164",
-  "description": "Installs the PWA of the Scoalkrant made by Open Webdesign Germany",
+  "background_color": "palevioletred",
+  "description": "Don't hit the bar!",
   "display": "fullscreen",
   "icons": [
     {
       "src": "icon.png",
-      "sizes": "192x192",
+      "sizes": "268x300",
       "type": "image/png"
     }
   ],
-  "name": "Scoalkrant PWA",
-  "short_name": "Scoalkrant Web",
+  "name": "Bar Hitter",
+  "short_name": "Bar Hit",
   "start_url": "/index.html"
 }
