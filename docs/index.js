@@ -4,7 +4,7 @@
 if('serviceWorker' in navigator) {
   navigator.serviceWorker
            .register('/sw.js')
-           .then(function() { console.log('Service Worker Registered'); });
+           .then(function() { console.log('Service Worker Registered');console.log('Do you want to install the PWA?') });
 }
 
 // Code to handle install prompt on desktop
