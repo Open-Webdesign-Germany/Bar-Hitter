@@ -3,7 +3,7 @@
 
 if('serviceWorker' in navigator) {
   navigator.serviceWorker
-           .register('Bar-Hitter/sw.js')
+           .register('/Bar-Hitter/sw.js')
            .then(function() { console.log('Service Worker Registered');console.log('Do you want to install the PWA?') });
 }
 
